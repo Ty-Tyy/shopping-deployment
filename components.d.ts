@@ -26,6 +26,7 @@ declare module 'vue' {
     Menubar: typeof import('primevue/menubar')['default']
     MenuNav: typeof import('./src/components/MenuNav.vue')['default']
     Message: typeof import('primevue/message')['default']
+    MultiSelect: typeof import('primevue/multiselect')['default']
     OverlayBadge: typeof import('primevue/overlaybadge')['default']
     PerfumeProductLayout: typeof import('./src/components/PerfumeProductLayout.vue')['default']
     ProductListComponent: typeof import('./src/components/ProductListComponent.vue')['default']
