@@ -14,7 +14,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'vue'], // Specify libraries you want in separate chunks
+          vendor: ['vue'], // Specify libraries you want in separate chunks
         }
       }
     }
